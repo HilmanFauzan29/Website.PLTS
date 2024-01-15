@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            color: #007bff;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        p {
+            text-align: left;
+            text-align: justify;
+            
+        }
+
+        .input-group {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .result {
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .footer {
+            margin-top: auto;
+            background-color: #343a40;
+            color: #f8f9fa;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+    <imagesrc><img src="UPI-Logo-lengkap-merah-samping.jpg" width="160px" height="50"></imagesrc>
+    <title>Check daerah pontensial untuk PLTS</title>
+</head>
+
+<body>
+    <div style="border: 1px solid #eee; height: 100%; overflow: auto; padding: 10px; ; width: 100%;">
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Potensi Daerah untuk PLTS</h1>
+            </div>
+        
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-8 mx-auto">
+                <div class="input-group">
+                    <input type="text" class="form-control input-keyword" placeholder="Masukan daerah atau negara " aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container result">
+
+    </div>
+    
+    <div style="border:1px solid #fdfdfd; padding:8px;"><img src="Sel Surya.jpg" height="200" width="300" style="float:right; margin:0 8px 4px 0;" />PLTS adalah pembangkit listrik yang mengubah energi surya menjadi energi listrik. Efesiensi dari sel surya yang dihasilkan bisa berbeda-beda setiap daerah karena dipengaruhi oleh beberapa faktor seperti keadaan cuaca dan temperatur. Dilansir dari beberapa artikel jurnal yang menjelaskan tentang pengaruh cuaca terhadap efisiensi sel surya dijelaskan bahwa faktor-faktor tersebut sangat mempengaruhi efisiensi sel surya dan kecocokan daerah untuk dijadikan tempat PLTS. Oleh karena itu, berikut merupakan mesin pencari yang bisa digunakan untuk mencari tahu kecocokan suatu daerah untuk dijadikan tempat diberdirikannya PLTS. </div>
+
+   <imagesrc><img src="putih.png" alt=""></imagesrc>
+
+    <div class="footer">
+        <h6>Made with <span>&#10084;</span> by FISIKA UPI 2022</h6>
+        <h6>Powered by openweathermap.org API</h6>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
